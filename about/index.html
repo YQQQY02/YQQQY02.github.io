@@ -1,0 +1,500 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/img.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>About - Wagtail Ecommerce doccumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#install-and-run-wagtail" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Wagtail Ecommerce doccumentation" class="md-header__button md-logo" aria-label="Wagtail Ecommerce doccumentation" data-md-component="logo">
+      
+  <img src="../assets/img.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wagtail Ecommerce doccumentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              About
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Wagtail Ecommerce doccumentation" class="md-nav__button md-logo" aria-label="Wagtail Ecommerce doccumentation" data-md-component="logo">
+      
+  <img src="../assets/img.png" alt="logo">
+
+    </a>
+    Wagtail Ecommerce doccumentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        About
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#-install-dependencies" class="md-nav__link">
+    -&gt; Install dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-create-and-activate-a-virtual-environment" class="md-nav__link">
+    -&gt; Create and activate a virtual environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-install-wagtail" class="md-nav__link">
+    -&gt; Install Wagtail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-generate-your-site" class="md-nav__link">
+    -&gt; Generate your site
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-install-project-dependencies" class="md-nav__link">
+    -&gt; Install project dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-create-the-database" class="md-nav__link">
+    -&gt; Create the database
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-create-an-admin-user" class="md-nav__link">
+    -&gt; Create an admin user
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-start-the-server" class="md-nav__link">
+    -&gt; Start the server
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#-install-dependencies" class="md-nav__link">
+    -&gt; Install dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-create-and-activate-a-virtual-environment" class="md-nav__link">
+    -&gt; Create and activate a virtual environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-install-wagtail" class="md-nav__link">
+    -&gt; Install Wagtail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-generate-your-site" class="md-nav__link">
+    -&gt; Generate your site
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-install-project-dependencies" class="md-nav__link">
+    -&gt; Install project dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-create-the-database" class="md-nav__link">
+    -&gt; Create the database
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-create-an-admin-user" class="md-nav__link">
+    -&gt; Create an admin user
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-start-the-server" class="md-nav__link">
+    -&gt; Start the server
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="install-and-run-wagtail">Install and run Wagtail</h1>
+<h2 id="-install-dependencies">-&gt; Install dependencies</h2>
+<p>Wagtail supports Python 3.7, 3.8, 3.9, 3.10, and 3.11.
+To check whether you have an appropriate version of Python 3:</p>
+<pre><code>python --version
+</code></pre>
+<h2 id="-create-and-activate-a-virtual-environment">-&gt; Create and activate a virtual environment</h2>
+<p>We recommend using a virtual environment, which isolates installed dependencies from other projects. This tutorial uses venv, which is packaged with Python 3.
+On Windows (cmd.exe):</p>
+<pre><code>py -m venv mysite\env
+mysite\env\Scripts\activate.bat
+# or:
+mysite\env\Scripts\activate
+</code></pre>
+<h2 id="-install-wagtail">-&gt; Install Wagtail</h2>
+<p>Use pip, which is packaged with Python, to install Wagtail and its dependencies:</p>
+<pre><code>pip install wagtail
+</code></pre>
+<h2 id="-generate-your-site">-&gt; Generate your site</h2>
+<p>Wagtail provides a start command similar to django-admin startproject. Running wagtail start mysite in your project will generate a new mysite folder with a few Wagtail-specific extras, including the required project settings, a “home” app with a blank HomePage model and basic templates, and a sample “search” app.</p>
+<p>Because the folder mysite was already created by venv, run wagtail start with an additional argument to specify the destination directory:</p>
+<pre><code>wagtail start mysite mysite
+</code></pre>
+<h2 id="-install-project-dependencies">-&gt; Install project dependencies</h2>
+<pre><code>cd mysite
+pip install -r requirements.txt
+</code></pre>
+<p>This ensures that you have the relevant versions of Wagtail, Django, and any other dependencies for the project you have just created. The requirements.txt file contains all the dependencies needed in order to run the project.</p>
+<h2 id="-create-the-database">-&gt; Create the database</h2>
+<pre><code>python manage.py makemigrations
+python manage.py migrate
+</code></pre>
+<p>This command ensures that the tables in your database are matched to the models in your project. </p>
+<p>Every time you alter your model (for example you may add a field to a model) you will need to run this command in order to update the database.</p>
+<h2 id="-create-an-admin-user">-&gt; Create an admin user</h2>
+<pre><code>python manage.py createsuperuser
+</code></pre>
+<p>When logged into the admin site, a superuser has full permissions and is able to view/create/manage the database.</p>
+<h2 id="-start-the-server">-&gt; Start the server</h2>
+<pre><code>python manage.py runserver
+</code></pre>
+<p>If everything worked, http://127.0.0.1:8000 will show you a welcome page:
+<img alt="img.png" src="../img.png" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
