@@ -1,0 +1,16 @@
+site_name: Wagtail Ecommerce doccumentation
+
+nav:
+  - Home: index.md
+  - About: about.md
+theme:
+  name: material
+  logo: assets/img.png
+  favicon: assets/img.png
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
